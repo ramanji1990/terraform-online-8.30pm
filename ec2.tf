@@ -1,8 +1,8 @@
-resource "aws_instance" "mytftesting" {
-  ami           = "ami-0763cf792771fe1bd"
-  instance_type = "t2.micro"
+resource "aws_instance" "Terraform-Server" {
+  ami           = "ami-0e449927258d45bc4"
+  instance_type = "t2.nano"
 
   tags = {
-    Name = "mytftesting"
+    Name = "Terraform-Server"
   }
 }
